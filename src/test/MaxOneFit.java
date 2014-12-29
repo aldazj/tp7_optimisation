@@ -17,5 +17,6 @@ public class MaxOneFit implements Fitness<Boolean>{
             }
         }
         return falsePositions / individual.size();
+        
     }
 }
